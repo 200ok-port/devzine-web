@@ -8,6 +8,17 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint . --fix && prettier --write"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint . --fix",
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "next": "12.1.0",
     "react": "17.0.2",
@@ -24,6 +35,8 @@
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "typescript": "^4.6.2"
   }
