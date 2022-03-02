@@ -15,3 +15,4 @@ Next.js, Typscript
 7. CI/CD 설정
 8. Docker 설정
 9. style stack 고민 - only CSS? or SCSS
+10. nginx, file 관리 프로그램 사용 확인
