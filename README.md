@@ -6,7 +6,7 @@ Next.js, Typscript
 
 ## To do list
 
-1. eslint 관련 husky, lint-staged 설치
+1. ~~eslint 관련 husky, lint-staged 설치~~
 2. pwa - registerServiceWorker, manifest.json
 3. Ionic 설치
 4. Micro-frontends architecture : app / web / compoenets/ design system 등 분리 → webpack 5 Module Federation 사용 (서비스 분리 관리로 배포가 편해짐)
@@ -16,3 +16,6 @@ Next.js, Typscript
 8. Docker 설정
 9. style stack 고민 - only CSS? or SCSS
 10. nginx, file 관리 프로그램 사용 확인
+11. 만들 페이지 정리 및 생성
+12. 공통 컴포넌트 정리 및 생성
+13. api 정리
