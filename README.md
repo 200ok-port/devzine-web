@@ -22,3 +22,4 @@ Next.js, Typscript
 14. storybook - atomic design
 15. 한/영
 16. firebase, Google Analytics
+17. 글꼴 설정
