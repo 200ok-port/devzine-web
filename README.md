@@ -1,6 +1,6 @@
 ## Stack
 
-Next.js, Typscript
+Next.js, Typscript, PWA,
 
 <br/>
 
@@ -14,7 +14,7 @@ Next.js, Typscript
 6. TDD 설정
 7. CI/CD 설정
 8. Docker 설정
-9. style stack 고민 - only CSS? or SCSS or style-components 0r bootstrap?
+9. style stack 고민 - only CSS? or SCSS or style-components or bootstrap?
 10. nginx, file 관리 프로그램 사용 확인
 11. 만들 페이지 정리 및 생성
 12. 공통 컴포넌트 정리 및 생성
