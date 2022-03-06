@@ -1,6 +1,6 @@
 ## Stack
 
-Next.js, Typscript, PWA,
+Next.js, Typscript, PWA, Webpack 5
 
 <br/>
 
