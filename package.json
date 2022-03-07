@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd frame; yarn dev \" \"cd home; yarn dev\"",
+    "build": "concurrently \"cd frame; yarn build \" \"cd home; yarn build\"",
+    "serve": "concurrently \"cd frame; yarn start \" \"cd home; yarn start\"",
+    "postinstall": "concurrently \"cd frame; yarn\" \"cd home; yarn\""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
