@@ -1,15 +1,15 @@
 ## Stack
 
-Next.js, Typscript, PWA, Webpack 5
+Next.js, Typscript, PWA,
 
 <br/>
 
 ## To do list
 
-1. eslint 관련 husky, lint-staged 설치
-2. pwa - registerServiceWorker, manifest.json
+1. ~~eslint 관련 husky, lint-staged 설치~~
+2. ~~pwa - registerServiceWorker, manifest.json~~
 3. Ionic 설치
-4. ~~Micro-frontends architecture : app / web / compoenets/ design system 등 분리 → webpack 5 Module Federation 사용 (서비스 분리 관리로 배포가 편해짐)~~
+4. ~~Micro-frontends architecture : app / web / compoenets/ design system 등 분리 → webpack 5 Module Federation 사용 (서비스 분리 관리로 배포가 편해짐) 사이트 여러 개를 띄어야하는데 회사용이 아닌 개인 프로젝트로 진행하기엔 어려움이 있다. 포기~~
 5. 상태관리 고민 - recoil, react uquery, SWR
 6. TDD 설정
 7. CI/CD 설정
@@ -22,4 +22,4 @@ Next.js, Typscript, PWA, Webpack 5
 14. storybook - atomic design
 15. 한/영
 16. firebase, Google Analytics
-17. 글꼴 설정
+17. ~~글꼴 설정~~

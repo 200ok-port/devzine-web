@@ -1,12 +1,48 @@
 {
+  "name": "devzine-web",
+  "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "concurrently \"cd frame; yarn dev \" \"cd home; yarn dev\"",
-    "build": "concurrently \"cd frame; yarn build \" \"cd home; yarn build\"",
-    "serve": "concurrently \"cd frame; yarn start \" \"cd home; yarn start\"",
-    "postinstall": "concurrently \"cd frame; yarn\" \"cd home; yarn\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint . --fix && prettier --write"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint . --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
-    "concurrently": "^5.2.0"
+    "next": "12.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "next-pwa": "^5.4.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.17.2",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.9.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
   }
 }
