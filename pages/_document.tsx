@@ -15,7 +15,6 @@ export default class CustomDocument extends Document {
             name="keywords"
             content="DEVzine, 뎁진, IT트렌드, IT매거진, IT소식, IT구독"
           />
-          <title>DEVzine</title>
 
           <link rel="manifest" href="/manifest.json" />
           <link rel="icon" href="/icons/favicon.ico" />

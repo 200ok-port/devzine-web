@@ -1,0 +1,13 @@
+{
+  "appId": "com.devzine-web.app",
+  "appName": "devzine-web",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "out",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

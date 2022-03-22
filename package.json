@@ -21,6 +21,12 @@
     ]
   },
   "dependencies": {
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/cli": "^3.4.3",
+    "@capacitor/core": "^3.4.3",
+    "@capacitor/ios": "^3.4.3",
+    "@ionic/react": "^6.0.12",
+    "@ionic/react-router": "^6.0.12",
     "next": "12.1.0",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
